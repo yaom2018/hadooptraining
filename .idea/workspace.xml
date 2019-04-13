@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0081c1-c9e7-4bec-8d1d-e38c31e941d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs使用命令说明.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ehuanchuang/hadoop/hdfs/HDFSApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ehuanchuang/hadoop/hdfs/HDFSApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ehuanchuang/hadoop/hdfs/HDFSApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ehuanchuang/hadoop/hdfs/HDFSApp.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ehuanchuang/hadoop/hdfs/HDFSApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="98" column="24" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="31" />
+            <state relative-caret-position="261">
+              <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,11 +30,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/hdfs使用命令说明.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="38">
-                <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <first_editor relative-caret-position="108">
+                <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
               </first_editor>
               <second_editor />
             </state>
@@ -56,8 +57,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ehuanchuang/hadoop/hdfs/HDFSApp.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ehuanchuang/hadoop/hdfs/HDFSApp.java" />
+        <option value="$PROJECT_DIR$/hdfs使用命令说明.md" />
       </list>
     </option>
   </component>
@@ -114,32 +116,6 @@
               <item name="hadooptraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadooptraining" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hadooptraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadooptraining" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadooptraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadooptraining" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadooptraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadooptraining" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadooptraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadooptraining" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -151,7 +127,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554972550031" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555124452578" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -167,22 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HDFSApp.copyToLocalFile">
-    <configuration name="HDFSApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hadooptraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ehuanchuang.hadoop.hdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ehuanchuang.hadoop.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.ehuanchuang.hadoop.hdfs.HDFSApp" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.HDFSApp.listFiles">
     <configuration name="HDFSApp.copyFileFromLocal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hadooptraining" />
       <extension name="coverage">
@@ -231,6 +192,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HDFSApp.listFiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadooptraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ehuanchuang.hadoop.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ehuanchuang.hadoop.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.ehuanchuang.hadoop.hdfs.HDFSApp" />
+      <option name="METHOD_NAME" value="listFiles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HDFSApp.rename" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hadooptraining" />
       <extension name="coverage">
@@ -249,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HDFSApp.listFiles" />
         <item itemvalue="JUnit.HDFSApp.copyToLocalFile" />
         <item itemvalue="JUnit.HDFSApp.copyFileFromLocalWithProg" />
         <item itemvalue="JUnit.HDFSApp.copyFileFromLocal" />
         <item itemvalue="JUnit.HDFSApp.rename" />
-        <item itemvalue="JUnit.HDFSApp" />
       </list>
     </recent_temporary>
   </component>
@@ -269,17 +246,11 @@
       <updated>1554608555828</updated>
       <workItem from="1554608563516" duration="18936000" />
       <workItem from="1554961959527" duration="95000" />
-      <workItem from="1554962298876" duration="4216000" />
+      <workItem from="1554962298876" duration="7002000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HDFSApp_copyToLocalFile - 2019.04.11 at 14h 10m 06s.xml">
-      <configuration name="HDFSApp.copyToLocalFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HDFSApp_copyToLocalFile - 2019.04.11 at 14h 17m 25s.xml">
-      <configuration name="HDFSApp.copyToLocalFile" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HDFSApp_copyToLocalFile - 2019.04.11 at 14h 20m 46s.xml">
       <configuration name="HDFSApp.copyToLocalFile" configurationId="JUnit" />
     </history-entry>
@@ -304,9 +275,15 @@
     <history-entry file="HDFSApp_copyToLocalFile - 2019.04.11 at 14h 37m 43s.xml">
       <configuration name="HDFSApp.copyToLocalFile" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HDFSApp_listFiles - 2019.04.11 at 17h 06m 46s.xml">
+      <configuration name="HDFSApp.listFiles" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSApp_listFiles - 2019.04.11 at 17h 08m 22s.xml">
+      <configuration name="HDFSApp.listFiles" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23247000" />
+    <option name="totallyTimeSpent" value="26033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="798" extended-state="6" />
@@ -321,7 +298,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35135135" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -341,7 +318,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="8" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,13 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/work/repo/org/apache/hadoop/hadoop-common/2.6.0-cdh5.7.0/hadoop-common-2.6.0-cdh5.7.0.jar!/org/apache/hadoop/fs/FileSystem.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="529" column="39" selection-start-line="529" selection-start-column="35" selection-end-line="529" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/work/repo/org/apache/hadoop/hadoop-common/2.6.0-cdh5.7.0/hadoop-common-2.6.0-cdh5.7.0.jar!/org/apache/hadoop/fs/RawLocalFileSystem.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -376,21 +346,38 @@
     <entry file="file://$PROJECT_DIR$/hadooptraining.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/work/repo/org/apache/hadoop/hadoop-common/2.6.0-cdh5.7.0/hadoop-common-2.6.0-cdh5.7.0.jar!/org/apache/hadoop/fs/FileSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="686" column="32" lean-forward="true" selection-start-line="686" selection-start-column="20" selection-end-line="686" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ehuanchuang/hadoop/hdfs/HDFSApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="98" column="24" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="31" />
+        <state relative-caret-position="261">
+          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/hdfs使用命令说明.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <first_editor relative-caret-position="108">
+            <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
           </first_editor>
           <second_editor />
         </state>

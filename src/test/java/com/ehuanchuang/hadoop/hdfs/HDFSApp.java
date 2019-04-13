@@ -99,9 +99,36 @@ public class HDFSApp {
     public void copyToLocalFile() throws Exception{
         Path localPath = new Path("D:\\10DEVTOOL\\temp\\pdfeditor.exe");
         Path hdfsPath = new Path("/hdfsapi/test/pdfeditor.exe");
+        //Linux系统使用
 //        fileSystem.copyToLocalFile(hdfsPath,localPath);
+        //Win系统使用
         fileSystem.copyToLocalFile(false,hdfsPath,localPath,true);
 
+    }
+
+    /**
+     * 文件遍历显示
+     * @throws Exception
+     */
+    @Test
+    public void listFiles() throws  Exception{
+        FileStatus[] fileStatuses = fileSystem.listStatus(new Path("/hdfsapi/test"));
+        for (FileStatus file: fileStatuses){
+            String isDir = file.isDirectory() ? "文件夹" : "文件";
+            short replication = file.getReplication();
+            long len = file.getLen();
+            String path = file.getPath().toString();
+            System.out.println(isDir + "\t" + replication + "\t" + len + "\t" + path + "\t");
+        }
+    }
+
+    /**
+     * 删除
+     * @throws Exception
+     */
+    @Test
+    public void delete() throws  Exception{
+        fileSystem.delete(new Path("/hdfsapi/test"),true);
     }
 
     @Before

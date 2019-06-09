@@ -4,8 +4,8 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
 import org.apache.hadoop.io.IOUtils;
 import org.apache.hadoop.util.Progressable;
-import org.junit.Before;
 import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.io.BufferedInputStream;
@@ -17,7 +17,7 @@ import java.net.URI;
 
 public class HDFSApp {
 
-    public static final String HDFS_PATH = "hdfs://192.168.31.34:8020";
+    public static final String HDFS_PATH = "hdfs://hadoop000:8020";
     FileSystem fileSystem = null;
     Configuration configuration = null;
 
@@ -66,8 +66,8 @@ public class HDFSApp {
      */
     @Test
     public void copyFileFromLocal() throws Exception{
-        Path oldPath = new Path("D:\\10DEVTOOL\\npp.7.6.2.bin.x64.zip");
-        Path newPath = new Path("/hdfsapi/test");
+        Path oldPath = new Path("D:\\30Training\\xiaowangzi.txt");
+        Path newPath = new Path("/");
         fileSystem.copyFromLocalFile(oldPath,newPath);
     }
 
@@ -134,7 +134,7 @@ public class HDFSApp {
     @Before
     public void setUp() throws Exception {
         configuration = new Configuration();
-        fileSystem = FileSystem.get(new URI(HDFS_PATH), configuration,"root");
+        fileSystem = FileSystem.get(new URI(HDFS_PATH), configuration,"atlas");
     }
 
     @After
